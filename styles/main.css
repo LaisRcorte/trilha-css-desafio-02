@@ -1,0 +1,134 @@
+main{
+    padding: 2rem 3rem 3rem 5rem;
+    display: flex;
+
+}
+
+#videoAssistido{
+    width: 70vw;
+    margin-right: 2rem;
+}
+
+#videoP img{
+   width: 100%; 
+}
+
+#videoP h1{
+    font-size: 1.9rem;
+    margin: 1rem 0 1.5rem 0;
+}
+
+#avaliacao{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    flex-basis: auto;
+    margin-bottom: 2rem;
+}
+
+.canal-avaliacao{
+    display: flex;
+    align-items: center;
+}
+
+.canal-avaliacao img{
+    margin-right:  1rem;
+}
+
+.inscritos-canal{
+    flex: 1 0 auto;
+}
+
+.inscritos-canal h2{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.inscritos-canal p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--cinza-escuro);
+}
+
+#avaliacao button{
+    width: 15%;
+    background-color: var(--vermelho);
+    border-radius: 2px;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--branco);
+}
+
+.lista-avaliacao{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.lista-avaliacao li{
+    list-style-type: none;
+    display: flex;
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-avaliacao li img{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 0.5rem;
+}
+
+.lista-avaliacao li h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+#descricao{
+    font-size: 1.4rem;
+    color: var(--cinza-escuro);
+    font-weight: 400; 
+    padding-right: 2rem;
+    text-align: justify;
+}
+
+#descricao .infos{
+    font-weight: 600;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+#prox_videos{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+#prox_videos div{
+    display: flex;
+}
+
+#prox_videos div div{
+    flex-direction: column;
+    flex: auto;
+    margin-left: 1.5rem;
+}
+
+#prox_videos div div h2{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0.1rem 0 0.5rem 0;
+}
+
+#prox_videos div div p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--cinza-escuro);
+}
+
+#prox_videos div div h2 + p{
+    margin-bottom: 0.5rem;
+}
